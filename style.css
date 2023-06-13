@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -5,9 +9,8 @@ ul {
     margin-right: 100px;
     gap: 15px;
     color: white;
-    font-family: sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 9px;
 
 }
 
@@ -21,7 +24,34 @@ ul {
 .header-logo {
     margin-left: 100px;
     color: white;
-    font-family: sans-serif;
     font-weight: 1000;
     padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.section-two {
+    display: flex;
+    padding: 50px 110px;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: #1F2937;
+}
+
+.grey-box {
+    background-color: grey;
+    width: 250px;
+    height: 120px;
+}
+
+.section-two p {
+    font-size: 12px;
+}
+
+.section-two button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
