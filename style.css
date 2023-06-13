@@ -36,6 +36,7 @@ ul {
     gap: 20px;
     color: white;
     background-color: #1F2937;
+    height: 150px;
 }
 
 .grey-box {
@@ -54,4 +55,37 @@ ul {
     border: none;
     padding: 5px 20px;
     border-radius: 5px;
+}
+
+.box {
+    border-radius: 7px;
+    border: 2px solid #3882F6;
+    width: 90px;
+    height: 90px;
+}
+
+.section-three {
+    height: 150px;
+}
+
+.section-three h3 {
+    text-align: center;
+}
+
+.all-box-and-text {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text {
+    font-size: 10px;
+    width: 90px;
+    text-align: center;
 }
