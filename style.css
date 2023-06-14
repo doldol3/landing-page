@@ -119,3 +119,50 @@ ul {
     font-weight: bold;
     margin-right: 30px;
 }
+
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.section-five button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 20px;
+    padding: 0 15px;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.section-five .text {
+    width: 250px;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.call {
+    margin-bottom: -1px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.sign {
+    font-size: 9px;
+}
+
